@@ -1,0 +1,109 @@
+<!-- CSS border properties allow to specify the style, width and color of an elements border.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is a demo script</title>
+		<style>
+		/*different types of border style*/
+			p.dot{
+				border-style: dotted;
+			}
+			
+			p.dash{
+				border-style: dashed;
+			}
+			p.slid{
+				border-style: solid;
+			}
+			p.border-color{
+				border-style: solid;
+				border-color: red green blue yellow;   /*border color defines*/
+			}
+			p.grov{
+				border-style: groove;
+			}
+			p.inst{
+				border-style: inset;
+			}
+			p.out{
+				border-style: outset;
+			}
+			p.non{
+				border-style: none;
+			}
+			p.hiden{
+				border-style: hidden;
+			}
+			p.mix{
+				border-style: dotted dashed solid double;
+			}
+			p.bottom{
+				border-style:none none solid none;
+				border-color: red;
+				
+			}
+			/*border width*/
+			p.border-width{
+				border-style: solid;
+				border-width: 5px;
+				/*border-width: 5px 0px 0px 0px; */   /*border side width define*/
+				/*border-width: thick;
+				border-width: thin;
+				border-width: medium;
+				border-left-width: 5px;
+				border-right-width: 5px;
+				border-top-width: 5px;*/
+			}
+
+			/*css border side style defines the style of the side bar of the border*/
+
+			p.border-side{
+				border-top-style: solid;
+				border-right-style: dotted;
+				border-bottom-style: dashed;
+				border-left-style: solid;
+			}
+
+		/*	border shorthand is used to specify all the individual border properties in one property*/
+
+			p.shorthand1{
+				border: 5px solid blue;
+			}
+
+			p.shorthand2{
+
+				
+				border-left: 8px solid green;
+				background-color: lightgray;
+			}
+
+			p.round{
+				border: 2px solid red;
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<p class="dot">Doated border</p>
+		<p class="dash">Dash border</p>
+		<p class="slid"> Solid border</p>
+		<p class="doub"> Double border</p>
+		<p class="grov"> 3d groove border</p>
+		<p class="inst"> 3d inset border</p>
+		<p class="out"> 3d outset border</p>
+		<p class="non"> No border</p>
+		<p class="hiden">hidden border</p>
+		<p class="mix">Dotted dash solid double mixed border</p>
+		<p class="bottom"> Bottom line border</p>
+		<p class="border-width"> Border width selector</p>
+		<p class="border-color"> Border color defines</p>
+		<p class="border-side">border sides</p>
+
+		<p class="shorthand1">Border shorthand</p>
+		<p class="shorthand2">Border shorthand</p>
+		<p class="round"> Rounded border</p>
+
+		
+	</body>
+</html>
